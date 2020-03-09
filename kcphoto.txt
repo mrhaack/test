@@ -1,0 +1,1 @@
+file=~/kcph/photo_$(date "+%Y%m%d_%H%M%S").png; kdeconnect-cli -d $(kdeconnect-cli -a --id-only) --photo ${file}
